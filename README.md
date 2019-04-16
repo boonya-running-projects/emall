@@ -1,6 +1,8 @@
-个人购物网站
+--Project--
 
-开发环境：
-jdk1.8、tomcat7（9有中文乱码问题）、redis、mysql、nginx等
+  Emall is a online shopping mall.
 
-1、环境部署可参看个人博客
+--Environment--
+
+  jdk1.8、tomcat7（9 has Chinese character problem）、redis、mysql、nginx and so on.
+
