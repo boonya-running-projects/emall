@@ -6,3 +6,6 @@
 
   jdk1.8、tomcat7（9 has Chinese character problem）、redis、mysql、nginx and so on.
 
+--forker
+
+  https://github.com/Mrfirewind/mmall_learning
