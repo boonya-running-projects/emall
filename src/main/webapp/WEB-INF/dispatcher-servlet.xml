@@ -66,6 +66,7 @@
         <property name="contentType">
             <value>text/html; charset=UTF-8</value>
         </property>
+         <property name="requestContextAttribute" value="request" />
     </bean>
 
 </beans>
