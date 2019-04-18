@@ -12,9 +12,9 @@
 
     <appender name="emall" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <!--<File>d:/emalllog/emall.log</File>-->
-        <File>C:/logs/emall.log</File>
+        <File>/var/logs/emall.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>C:/logs/emall.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
+            <fileNamePattern>/var/logs/emall.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
             <append>true</append>
             <maxHistory>10</maxHistory>
         </rollingPolicy>
@@ -26,9 +26,9 @@
 
     <appender name="error" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <!--<File>d:/emalllog/error.log</File>-->
-        <File>C:/logs/error.log</File>
+        <File>/var/logs/error.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>C:/logs/error.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
+            <fileNamePattern>/var/logs/error.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
             <!--<fileNamePattern>d:/emalllog/error.log.%d{yyyy-MM-dd}.gz</fileNamePattern>-->
             <append>true</append>
             <maxHistory>10</maxHistory>
